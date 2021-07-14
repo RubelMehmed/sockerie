@@ -1,0 +1,291 @@
+/* area two players */
+/*-----------------------
+ reflexive footballl
+ ------------------- */
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    height: 678px;
+}
+
+nav {
+
+
+    padding: 0px;
+
+    position: absolute;
+    width: 1160px;
+    height: 44px;
+    left: 156px;
+    top: 42px;
+
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font: size 3vh;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+button {
+    color: #242925c7;
+    background-color: rgba(137, 137, 194, 0.644);
+    border-radius: 10px;
+
+}
+
+
+.canvas {
+    display: flex;
+
+    position: absolute;
+    width: 1440px;
+    height: 677px;
+    left: 0px;
+    top: 0px;
+
+    background: #2D25A0;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 127px;
+    top: 403px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    /* or 125% */
+
+
+    color: #FFFFFF;
+
+
+}
+
+.canva {
+
+    position: absolute;
+    width: 28px;
+    height: 84px;
+    right: 225px;
+    top: 135px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.watch-live {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 24px;
+
+    position: absolute;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 220px;
+
+}
+
+.canva img:hover {
+    filter: grayscale(100%);
+}
+
+img {
+
+
+    width: 388px;
+    height: 428px;
+    right: 225px;
+    top: 135px;
+
+
+}
+
+/* -----------------------
+ best player------------- */
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    float: left;
+    width: 100%;
+    background-color: red;
+}
+
+.content {
+    width: 94%;
+    margin: 0px auto;
+    background-color: rgb(165, 165, 129);
+    padding: 30px;
+}
+
+.categories {
+
+    /* Auto Layout */
+
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 10px 0px;
+
+    width: 1050px;
+    height: 474px;
+    left: 180px;
+    top: 1248px;
+
+
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* NEW */
+}
+
+.categories_item img {
+
+    color: white;
+    width: 330px;
+    height: 270px;
+}
+
+.categories_item {
+
+    width: 330px;
+    height: 474px;
+    flex: repeat(3, 1fr);
+    /* NEW */
+    border: 1px solid rgb(171, 16, 192);
+    margin: 5px;
+    /* NEW */
+    background-color: rgb(182, 182, 216);
+}
+
+/*------------------
+ blog------------ */
+
+
+
+.blogs {
+    background-color: green;
+}
+
+.blog {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 466px;
+    height: 309px;
+    left: 182px;
+    top: 2948px;
+
+
+}
+
+.game {
+
+    display: flex;
+    position: absolute;
+    width: 567px;
+    height: 427px;
+    left: 717px;
+    top: 2889px;
+
+}
+
+/* --------------------
+footer
+---------------------- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 10px;
+    position: absolute;
+    width: 483.87px;
+    height: 213px;
+    left: 475px;
+    top: 3474px;
+
+}
+
+.footer .logo {
+    flex: 1;
+}
+
+.logo img {
+
+    height: 60%;
+}
+
+.footer .icon {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 25px;
+    height: 50px;
+
+}
+
+.footer .foot {
+    flex: 1;
+}
+
+
+
+
+
+/* ---------------
+media-query
+--------------- */
+@media (max-width: 698) {
+    .categories {
+        display: block;
+    }
+}
